@@ -1,0 +1,42 @@
+.ventana{
+    background-color:#F0EB8D;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: rgba(0, 0, 0, 0.726);
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:-250px;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #IrVentanaFlotante:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #IrVentanaFlotante1:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  .close{
+    float: right;
+  }
+  form button:hover{
+    background-color: #aaa7646e;
+
+  }
+  form input{
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    background-color: #aaa7646e;
+    border-radius: 5px;
+  }
+ 
