@@ -1,0 +1,33 @@
+/* @keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+
+.iconR:hover{
+    -webkit-animation: 1s rotate linear infinite;
+    animation: 1s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+*/
+
+.iconR{
+  filter: opacity(0.6) drop-shadow(0 0 0 rgb(189, 81, 252)); 
+    width: 50px;
+    height: 50px;
+    
+  }
+  .iconR:hover{
+    -webkit-animation: tiembla 0.2s infinite;
+  }
+  @-webkit-keyframes tiembla{
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(1.3); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+  }
+
+  #iconosCont{
+    float: right;
+    padding-top: 7px;
+    width: 60px;
+  }

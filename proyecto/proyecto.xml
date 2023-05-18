@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+  <usuario nombre="Jugador1" steam_id="76561198123456789">
+    <estadisticas partidas_jugadas="100" partidas_ganadas="60" asesinatos="1500" muertes="1000" />
+    <rango actual="MGE" maximo="LEM" />
+    <armas>
+      <arma nombre="AK-47" kills="300" headshots="200" />
+      <arma nombre="AWP" kills="150" headshots="100" />
+    </armas>
+  </usuario>
+  <usuario nombre="Jugador2" steam_id="76561198234567890">
+    <estadisticas partidas_jugadas="200" partidas_ganadas="100" asesinatos="2500" muertes="1500" />
+    <rango actual="DMG" maximo="SMFC" />
+    <armas>
+      <arma nombre="M4A1-S" kills="400" headshots="250" />
+      <arma nombre="USP-S" kills="200" headshots="100" />
+      <arma nombre="Desert Eagle" kills="100" headshots="50" />
+    </armas>
+  </usuario>
+  <usuario nombre="Jugador3" steam_id="76561198345678901">
+    <estadisticas partidas_jugadas="300" partidas_ganadas="200" asesinatos="4000" muertes="2500" />
+    <rango actual="LEM" maximo="Global Elite" />
+    <armas>
+      <arma nombre="AK-47" kills="800" headshots="400" />
+      <arma nombre="M4A4" kills="600" headshots="300" />
+      <arma nombre="Glock-18" kills="400" headshots="200" />
+    </armas>
+  </usuario>
+  <usuario nombre="Jugador4" steam_id="76561198456789012">
+    <estadisticas partidas_jugadas="400" partidas_ganadas="300" asesinatos="6000" muertes="4000" />
+    <rango actual="Global Elite" maximo="Global Elite" />
+    <armas>
+      <arma nombre="AK-47" kills="1500" headshots="800" />
+      <arma nombre="M4A1-S" kills="800" headshots="400" />
+      <arma nombre="AWP" kills="300" headshots="200" />
+      <arma nombre="P250" kills="200" headshots="100" />
+    </armas>
+  </usuario>
+  <usuario nombre="Jugador5" steam_id="76561198567890123">
+    <estadisticas partidas_jugadas="500" partidas_ganadas="400" asesinatos="8000" muertes="5000" />
+    <rango actual="Global Elite" maximo="Global Elite" />
+    <armas>
+      <arma nombre="AK-47" kills="2500" headshots="1200" />
+      <arma nombre="M4A1-S" kills="1200" headshots="600" />
+      <arma nombre="AWP" kills="500" headshots="300" />
+    </armas>
+  </usuario>
+<usuarios>
